@@ -248,10 +248,10 @@ function ClearForm(){
 
 </p>
 </p>
-<!-- Form Layout Table -------------- -->
-<table border=2 cellpadding=10 cellspacing=0>
+<!-- Form Layout Table  -->
+<table border=0 cellpadding=10 cellspacing=0>
 <tr>
-<td valign=middle align=left>
+<td valign=middle align=left colspan="2">
 
 <FORM name="property_form" >
 
@@ -282,11 +282,10 @@ FillMenuWithArray(document.property_form.the_menu, property);
 
 <tr>
 
-//A
 <td  valign=middle align=center >
 <FORM name="form_A" onSubmit="return false">
 
-<b>A</b>
+<b>FROM:</b>
 
 <SELECT NAME="unit_menu">
 <OPTION>------- Select a Property -------
@@ -303,12 +302,12 @@ FillMenuWithArray(document.property_form.the_menu, property);
 
 </form>
 
+	
 
-//B
-	<td valign=middle align=center>
+<td valign=middle align=center>
 <form name="form_B" onSubmit="return false">
 
-<b>B</b>
+<b>TO:</b>
 
 <SELECT NAME="unit_menu">
 <OPTION>------- Select a Property -------
@@ -327,7 +326,7 @@ FillMenuWithArray(document.property_form.the_menu, property);
 </td>
 </tr>
 <tr>
-<td valign=middle align=right>
+<td valign=middle align=right  COLSPAN="2">
 
 <form name="util_form">
 
